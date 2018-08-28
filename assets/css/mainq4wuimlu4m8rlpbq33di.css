@@ -6,6 +6,63 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i");
 @import url("https://fonts.googleapis.com/css?family=Prata");
+@font-face {
+  font-family: 'ralewayregular';
+  src: url("../fonts/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url("../fonts/raleway-semibold-webfont.woff2") format("woff2"), url("../fonts/raleway-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayextrabold';
+  src: url("../fonts/raleway-extrabold-webfont.woff2") format("woff2"), url("../fonts/raleway-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayblack';
+  src: url("../fonts/raleway-black-webfont.woff2") format("woff2"), url("../fonts/raleway-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url("../fonts/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/raleway-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url("../fonts/raleway-medium-webfont.woff2") format("woff2"), url("../fonts/raleway-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?iip0uo");
+  src: url("../fonts/icomoon.eot?iip0uo#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?iip0uo") format("truetype"), url("../fonts/icomoon.woff?iip0uo") format("woff"), url("../fonts/icomoon.svg?iip0uo#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bebas_neue_regularregular';
+  src: url("../fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("../fonts/bebasneue_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -110,6 +167,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  font-family: 'ralewaysemibold';
 }
 
 /**
@@ -2477,62 +2535,7 @@ html, body {
   min-height: 100%;
 }
 
-@font-face {
-  font-family: 'ralewayregular';
-  src: url("../fonts/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/raleway-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'ralewaysemibold';
-  src: url("../fonts/raleway-semibold-webfont.woff2") format("woff2"), url("../fonts/raleway-semibold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ralewayextrabold';
-  src: url("../fonts/raleway-extrabold-webfont.woff2") format("woff2"), url("../fonts/raleway-extrabold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ralewayblack';
-  src: url("../fonts/raleway-black-webfont.woff2") format("woff2"), url("../fonts/raleway-black-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ralewaybold';
-  src: url("../fonts/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/raleway-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ralewaymedium';
-  src: url("../fonts/raleway-medium-webfont.woff2") format("woff2"), url("../fonts/raleway-medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?iip0uo");
-  src: url("../fonts/icomoon.eot?iip0uo#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?iip0uo") format("truetype"), url("../fonts/icomoon.woff?iip0uo") format("woff"), url("../fonts/icomoon.svg?iip0uo#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'bebas_neue_regularregular';
-  src: url("../fonts/bebasneue_regular-webfont.woff2") format("woff2"), url("../fonts/bebasneue_regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
 #ho_adv {
   display: none !important;

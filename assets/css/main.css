@@ -1,3 +1,44 @@
+
+@font-face {
+  font-family: 'Releway Black';
+  src: url(../fonts/RALEWAY-BLACK.TTF);
+}
+
+@font-face {
+  font-family: 'Releway Bold';
+  src: url(../fonts/RALEWAY-BOLD.TTF);
+}
+
+@font-face {
+  font-family: 'Releway ExtraBold';
+  src: url(../fonts/RALEWAY-EXTRABOLD.TTF);
+}
+
+@font-face {
+  font-family: 'Releway Italic';
+  src: url(../fonts/RALEWAY-ITALIC.TTF);
+}
+
+@font-face {
+  font-family: 'Releway Light';
+  src: url(../fonts/RALEWAY-LIGHT.TTF);
+}
+
+@font-face {
+  font-family: 'Releway Medium';
+  src: url(../fonts/RALEWAY-MEDIUM.TTF);
+}
+
+@font-face {
+  font-family: 'Releway Regular';
+  src: url(../fonts/RALEWAY-REGULAR.TTF);
+}
+
+@font-face {
+  font-family: 'Releway SemiBold';
+  src: url(../fonts/RALEWAY-SEMIBOLD.TTF);
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -132,6 +173,7 @@ abbr[title] {
 b,
 strong {
   font-weight: inherit;
+  font-family: 'Releway Bold';
 }
 
 /**
@@ -454,45 +496,6 @@ template,
 /**
  * Add the correct display in IE 10-. */
 
-@font-face {
-  font-family: 'Releway Black';
-  src: url(../fonts/RALEWAY-BLACK.TTF);
-}
-
-@font-face {
-  font-family: 'Releway Bold';
-  src: url(../fonts/RALEWAY-BOLD.TTF);
-}
-
-@font-face {
-  font-family: 'Releway ExtraBold';
-  src: url(../fonts/RALEWAY-EXTRABOLD.TTF);
-}
-
-@font-face {
-  font-family: 'Releway Italic';
-  src: url(../fonts/RALEWAY-ITALIC.TTF);
-}
-
-@font-face {
-  font-family: 'Releway Light';
-  src: url(../fonts/RALEWAY-LIGHT.TTF);
-}
-
-@font-face {
-  font-family: 'Releway Medium';
-  src: url(../fonts/RALEWAY-MEDIUM.TTF);
-}
-
-@font-face {
-  font-family: 'Releway Regular';
-  src: url(../fonts/RALEWAY-REGULAR.TTF);
-}
-
-@font-face {
-  font-family: 'Releway SemiBold';
-  src: url(../fonts/RALEWAY-SEMIBOLD.TTF);
-}
 
 * {
   -webkit-box-sizing: border-box;
