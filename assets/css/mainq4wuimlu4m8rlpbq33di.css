@@ -2857,6 +2857,9 @@ html, body {
   width: 100%;
 }
 
+.content-slider {
+  margin-bottom: -1px;
+}
 .content-slider .owl-dots {
   position: absolute;
   left: 0;
@@ -2872,6 +2875,9 @@ html, body {
   height: 10px;
   border-radius: 100%;
   background-color: #000;
+}
+.light-dots-slider .owl-dot {
+  background-color: #fff;
 }
 
 .content-slider .owl-dot.active, .content-slider .owl-dot:hover {
@@ -4483,7 +4489,8 @@ a.logo:hover, a.logo:focus, a.logo:active {
           flex-direction: column;
 }
 
-.project-item .project-inner .project-img img {
+.project-item .project-inner .project-img img,
+.project-item .project-inner .project-img video {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -5741,13 +5748,15 @@ a.logo:hover, a.logo:focus, a.logo:active {
   overflow: hidden;
 }
 
-.project-img-group img {
+.project-img-group img,
+.project-img-group video {
   width: 50%;
   float: left;
 }
 
 @media (max-width: 480px) {
-  .project-img-group img {
+  .project-img-group img,
+  .project-img-group video {
     width: 100%;
   }
 }
@@ -5757,7 +5766,8 @@ a.logo:hover, a.logo:focus, a.logo:active {
   float: left;
 }
 
-.project-img-group .project-group_item img {
+.project-img-group .project-group_item img,
+.project-img-group .project-group_item video {
   width: 100%;
 }
 
